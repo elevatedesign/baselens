@@ -1,0 +1,33 @@
+{
+  "name": "baselens-api",
+  "version": "1.0.0",
+  "description": "Pay-per-call Base on-chain reads for AI agents over x402 (USDC on Base) and a remote MCP server.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Elevate Design NW",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elevatedesign/baselens.git"
+  },
+  "type": "module",
+  "dependencies": {
+    "@coinbase/x402": "^2.1.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@payai/facilitator": "^2.4.6",
+    "@x402/core": "^2.29.0",
+    "@x402/evm": "^2.29.0",
+    "@x402/express": "^2.29.0",
+    "@x402/extensions": "^2.29.0",
+    "@x402/mcp": "^2.29.0",
+    "express": "^5.3.0",
+    "viem": "^2.57.13",
+    "zod": "^4.6.7"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}
